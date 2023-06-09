@@ -1,0 +1,137 @@
+* {
+    margin: 0;
+    overflow: hidden;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    display: flex;
+	flex-direction: column;
+	background-color: #ddd;
+    position: relative;
+    height: 100%;
+    min-height: 100%;
+}
+
+section{
+    width: 100%;
+}
+
+.containerAreaLogin{
+    display: flex;
+}
+
+fieldset{
+    border-color: transparent;
+}
+
+.containerFormLogin{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+}
+
+.teste{
+    width: 100%;
+}
+
+.formularioLogin {
+    border: 2px solid #02254b7e;
+    background-color: #02254b49;
+    border-radius: 8px;
+    overflow-y: hidden;
+    width: 500px;
+}
+
+.cabecalhoLogin{
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.logoLogin{
+    display: flex;
+}
+
+.logoLogin img {
+    padding: 10px;
+    width: 100px;
+}
+
+.cabecalhoLogin h1{
+    display: flex;
+    font-size: 30px;
+}
+
+.containerFormularioLogin{
+    margin-top: 10%;
+}
+
+.input-area-login {
+    width: 98%;
+    height: 40px;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    border-bottom: 1px solid rgb(24, 23, 23);
+    color: black;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    font-size: 15px;
+    background-color: transparent;
+}
+
+.input-area-login::placeholder{
+    color: black;
+}
+
+.esqueceuSenhaLogin {
+    padding: 0px 5px 60px 0px;
+    text-align: end;
+}
+
+.esqueceuSenhaLogin a{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+.esqueceuSenhaLogin a:hover {
+    transition: 2s;
+    text-decoration: underline;
+    color: black;
+}
+
+.buttonsLogin{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonsLogin button{
+    height: 80px;
+    width: 100%;
+    font-size: 18px;
+    color: white;
+    border-radius: 1px;
+    text-decoration: none;
+    margin-top: 0px;
+    cursor: pointer;
+}
+
+#buttonEntrar{
+    background-color: #02254b;
+    border: 1.8px solid #02254b;
+    width: 450px;
+    border-radius: 5px;
+}

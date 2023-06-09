@@ -1,0 +1,124 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    /*background-image: url(l.jpg);
+	background-position: center;
+	background-size: cover;*/
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #ddd;
+}
+
+fieldset {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.registroformulario {
+    width: 800px;
+    background-color: #001a35;
+    margin: auto;
+    color: #ffffff;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    font-size: 14px;
+    border-radius: 15px 15px 0px 0px;
+    box-shadow: inset 0 0 1em black;
+}
+
+
+.conteudo {
+    background-color: white;
+    width: 800px;
+    margin: auto;
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px;
+}
+
+.centralizacao{
+    text-align: center;
+}
+
+form {
+    padding: 20px;
+}
+
+h3 {
+    padding: 10px 0px;
+    font-size: 16px;
+}
+
+select{
+    width: 25%;
+    border-radius: 6px;
+    padding: 5px 2px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+input[type = "text"] {
+    width: 25%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 5px 2px;
+    text-align: center;
+}
+
+input[type = "password"]{
+    width: 25%;
+    line-height: 20px;
+    border-radius: 6px;
+    padding: 5px 2px;
+    text-align: center;
+}
+
+input[type="radio"] {
+    display: inline-block;
+    padding-right: 70px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+textarea {
+    width: 100%;
+    border-radius: 6px;
+    padding: 5px 5px;
+}
+
+
+button {
+    background-color: #001a35;
+    display: block;
+    text-align: center;
+    border-radius: 12px;
+    border: 2px solid #001a35;
+    width: 100%;
+    height: 50px;
+    color: white;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+#buttonVoltarCadastro {
+    display: inline-block;
+    width: 10%;
+    margin-left: 50px;
+    padding: 10px 20px;
+    font-size: 16px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #001a35;
+    color: white;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+  }
+
+#buttonVoltarCadastro:hover {
+    background-color: #001a35;
+}
+
+
+

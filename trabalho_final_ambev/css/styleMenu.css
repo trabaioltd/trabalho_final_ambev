@@ -1,0 +1,120 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(135, 135, 129, 0.326);
+}
+
+.tabs {
+    background-color: #02254b;
+    color: white;
+    display: center;
+    justify-content: flex-end;
+    padding: 10px;
+    flex: 1;
+}
+
+.tabs user {
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    padding: 5px;
+}
+
+.tabs user img {
+    border-radius: 50%;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+
+}
+
+.tabs user section {
+    display: flex;
+    height: 60px;
+    justify-content: flex-end;
+
+
+}
+
+.tabs user section name {
+    font-weight: bold;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.tabs user section div a {
+    color: white;
+    text-decoration: none;
+    margin-right: 20px;
+
+
+
+
+}
+
+
+fieldset {
+    margin-top: 30px;
+    padding: 20px;
+
+
+
+}
+
+fieldset legend {
+    font-weight: bold;
+    background-color: rgb(38, 44, 69);
+    color: white;
+
+}
+
+fieldset a {
+    display: block;
+    margin-bottom: 10px;
+    color: rgb(11, 11, 11);
+    text-decoration: none;
+
+}
+
+.logo {
+    width: 10% !important;
+    height: 100% !important;
+    border-radius: 0% !important;
+}
+
+.logo2 {
+
+    border-radius: 0% !important;
+}
+
+#foto {
+    display: flex;
+    margin: 15px 15px 15px 15px;
+    justify-content: center;
+
+}
+
+#foto img{
+    width: 150px;
+}
+
+#nomeUsuario {
+    display: flex;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 15px 15px 15px 15px;
+    justify-content: center;
+}
+
+.logout {
+    position: absolute;
+    right: 0px;
+    align-items: center;
+}
